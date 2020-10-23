@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+
+/* Commun a tous les média */
+
+html{
+	scroll-behavior: smooth;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+body{
+	margin: 0 auto;
+	background: hsl(217, 28%, 15%);
+	font-family: 'Open Sans' , sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: white;
+}
+
+/* Construction de l'en-tête*/
+
+header{
+	background: bottom/contain no-repeat url("../images/bg-curvy-desktop.svg");	
+}
+
