@@ -19,6 +19,10 @@ body{
 	font-weight: 400;
 	color: white;
 }
+ion-icon{
+	width: 24px;
+	height: 24px;
+}
 
 /* Construction de l'en-tête*/
 
@@ -168,11 +172,44 @@ main{
 	width: 50%;
 	margin: 0 auto 0 auto;
 	position: relative;
-	top: -100px;
+	top: -120px;
 	border-radius: 10px;
 	padding: 50px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	box-shadow:
+}
+
+
+footer{
+	background-color: hsl(216, 53%, 9%);
+	padding-top: 250px; 
+	position: absolute;
+	top: 2600px;
+	right: 0px;
+	left: 0px;
+}
+.foot{
+	margin: 50px 100px; 
+}
+.foot img{
+	margin-bottom: 25px;
+}
+.foot_container{
+	display: flex;
+	justify-content: space-evenly;
+}
+.foot_container div{
+	width: 20vw;
+}
+.contact{
+	display: flex;
+	width: 15vw;
+	justify-content: space-between;
+}
+.socials ion-icon{
+	padding: 5px 5px;
+	border: solid white 2px;
+	border-radius: 34px;
 }
